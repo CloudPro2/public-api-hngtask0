@@ -11,7 +11,7 @@ def get_info():
     response = {
         "email": "andrewduran12355@gmail.com",
         "current_datetime": datetime.datetime.utcnow().isoformat() + 'Z',
-        "github_url": "https://github.com/CloudPro2/VSCODE-hngtrack0-LATEST.git"
+        "github_url": "https://github.com/CloudPro2/public-api-hngtask0"
     }
     return jsonify(response)
 
